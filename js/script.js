@@ -176,29 +176,29 @@ document.addEventListener('DOMContentLoaded', () => {
 // Floating images logic
 const floatingContainer = document.querySelector('.floating-images');
 const imageSources = [
-  'img/img1.jpg',
-  'img/img2.jpg',
-  'img/img3.jpg',
-  'img/img4.jpg',
-  'img/img5.jpg',
-  'img/img6.jpg',
-  'img/img7.jpg',
-  'img/img8.jpg',
-  'img/img9.jpg',
-  'img/img10.jpg',
-  'img/img11.jpg',
-  'img/img12.jpg',
-  'img/img13.jpg',
-  'img/img14.jpg',
-  'img/img15.jpg',
-  'img/img16.jpg',
-  'img/img17.jpg',
-  'img/img18.jpg',
-  'img/img19.jpg',
-  'img/img20.jpg'
+  'img/img1.webp',
+  'img/img2.webp',
+  'img/img3.webp',
+  'img/img4.webp',
+  'img/img5.webp',
+  'img/img6.webp',
+  'img/img7.webp',
+  'img/img8.webp',
+  'img/img9.webp',
+  'img/img10.webp',
+  'img/img11.webp',
+  'img/img12.webp',
+  'img/img13.webp',
+  'img/img14.webp',
+  'img/img15.webp',
+  'img/img16.webp',
+  'img/img17.webp',
+  'img/img18.webp',
+  'img/img19.webp',
+  'img/img20.webp'
 ];
 
-const TOTAL_IMAGES = 1000;
+const TOTAL_IMAGES = 500;
 let created = 0;
 
 function createFloatingImage() {

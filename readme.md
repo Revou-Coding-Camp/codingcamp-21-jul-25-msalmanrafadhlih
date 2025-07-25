@@ -1,5 +1,4 @@
 # Aplikasi Web Daftar Tugas Sederhana
-
 Aplikasi web yang ringan dan intuitif untuk mengelola tugas harian Anda. Proyek ini mendemonstrasikan konsep-konsep dasar pengembangan web menggunakan HTML, CSS, dan JavaScript, termasuk penanganan formulir, manipulasi DOM, persistensi data (Local Storage), dan pemfilteran dasar.
 
 ## Fitur

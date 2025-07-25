@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatDoYouDo?</title>
-    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="icon" href="img/logo.webp" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,18 +12,20 @@
     <div class="container">
         <h1>ToDoList App</h1>
         <form id="todo-form">
-            <input type="text" id="todo-input" placeholder="Tugas Baru?" required>
-            <input type="date" id="date-input" required>
+            <input type="text" id="todo-input" placeholder="Tulis aja tugas apaan!" required>
+            <input type="date" id="date-input" placeholder="Tanggal?" required>
             <button type="submit">Tambahkan</button>
         </form>
-        <div class="filters">
+        <fieldset class="filters">
+            <legend>Filter:</legend>
             <button id="all-btn" class="active">Semua Tugas</button>
             <button id="active-btn">Tugas Aktif</button>
             <button id="completed-btn">Tugas Selesai</button>
-        </div>
+        </fieldset>
         <ul id="todo-list">
             </ul>
     </div>
+    <img src="" srcset="" alt="">
 
     <script src="js/script.js"></script>
 </body>
