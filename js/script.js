@@ -195,16 +195,30 @@ const imageSources = [
   'img/img17.jpg',
   'img/img18.jpg',
   'img/img19.jpg',
-  'img/img20.jpg',
+  'img/img20.jpg'
 ];
 
-// Generate 15 floating images
-for (let i = 0; i < 15; i++) {
+const TOTAL_IMAGES = 1000;
+let created = 0;
+
+function createFloatingImage() {
+  if (created >= TOTAL_IMAGES) return;
+
   const img = document.createElement('img');
   img.src = imageSources[Math.floor(Math.random() * imageSources.length)];
+  img.loading = 'lazy';
   img.style.left = Math.random() * 100 + 'vw';
-  img.style.top = Math.random() * -100 + 'px'; // start above view
-  img.style.animationDuration = (10 + Math.random() * 20) + 's';
-  img.style.width = (50 + Math.random() * 100) + 'px';
+  img.style.top = Math.random() * -200 + 'px';
+  img.style.width = (30 + Math.random() * 50) + 'px';
+  img.style.animationDuration = (8 + Math.random() * 12) + 's';
+  img.style.animationDelay = Math.random() * 5 + 's';
+  img.style.animationName = 'floatDown';
+
   floatingContainer.appendChild(img);
+  created++;
 }
+
+let interval = setInterval(() => {
+  createFloatingImage();
+  if (created >= TOTAL_IMAGES) clearInterval(interval);
+}, 10);
