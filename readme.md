@@ -1,4 +1,6 @@
-# Aplikasi Web Daftar Tugas Sederhana
+# Aplikasi Web Daftar Tugas Sederhana (To do List)
+![banner]({AEA20418-269C-4C03-9020-223D1F6967CA}.png)
+
 Aplikasi web yang ringan dan intuitif untuk mengelola tugas harian Anda. Proyek ini mendemonstrasikan konsep-konsep dasar pengembangan web menggunakan HTML, CSS, dan JavaScript, termasuk penanganan formulir, manipulasi DOM, persistensi data (Local Storage), dan pemfilteran dasar.
 
 ## Fitur
@@ -17,9 +19,9 @@ Aplikasi web yang ringan dan intuitif untuk mengelola tugas harian Anda. Proyek 
 
 ## Teknologi yang Digunakan
 
-* **HTML5:** Untuk struktur dasar dan konten halaman web.
-* **CSS3:** Untuk menata gaya aplikasi, membuatnya menarik secara visual dan mudah digunakan.
-* **JavaScript (ES6+):** Untuk semua fungsionalitas interaktif, termasuk menambah, menghapus, memfilter, dan mengelola status tugas.
+* **HTML**
+* **CSS**
+* **JavaScript**
 
 ## Struktur Proyek
 
@@ -38,47 +40,23 @@ Ikuti langkah-langkah sederhana ini untuk membuat aplikasi berjalan di mesin lok
 
 1.  **Kloning repositori (Opsional, jika Anda memilikinya di Git):**
     ```bash
-    git clone [https://github.com/nama-pengguna-anda/simple-todo-list.git](https://github.com/nama-pengguna-anda/simple-todo-list.git)
+    git clone https://github.com/msalmanrafadhlih/ToDo-List-App.git
     ```
-    (Ganti `https://github.com/nama-pengguna-anda/simple-todo-list.git` dengan URL repositori Anda yang sebenarnya jika Anda menyimpannya di GitHub, jika tidak, pastikan saja Anda memiliki file-file tersebut dalam folder lokal.)
 
 2.  **Navigasi ke direktori proyek:**
     ```bash
-    cd simple-todo-list
+    cd ToDo-List-App
     ```
 
 3.  **Buka `index.html`:**
-    Cukup buka file `index.html` di browser web pilihan Anda. Anda dapat melakukannya dengan mengklik dua kali pada file atau dengan menyeretnya ke jendela browser Anda.
+    Cukup buka file `index.html` di browser web. kamu  dapat melakukannya dengan mengklik perintah
 
     ```bash
-    # Contoh perintah (mungkin bervariasi tergantung OS Anda)
-    open index.html      # Untuk macOS
-    start index.html     # Untuk Windows
-    xdg-open index.html  # Untuk Linux
+    ctrl - shit - p 
     ```
+    dan carilah "live server: Open with Live Server"
 
 Aplikasi seharusnya sekarang sudah aktif di browser Anda!
-
-## Penggunaan
-
-1.  **Menambah Tugas:**
-    * Ketik deskripsi tugas Anda ke dalam kolom input "Add a new task...".
-    * Pilih tanggal jatuh tempo menggunakan kolom input tanggal.
-    * Klik tombol "Add Task".
-
-2.  **Menandai Selesai/Batal:**
-    * Klik tombol "Complete" di samping tugas untuk menandainya sebagai selesai.
-    * Klik tombol "Undo" (yang muncul setelah selesai) untuk mengembalikan statusnya.
-
-3.  **Menghapus Tugas:**
-    * Klik tombol "Delete" di samping tugas apa pun untuk menghapusnya dari daftar.
-
-4.  **Memfilter Tugas:**
-    * Klik tombol "All", "Active", atau "Completed" untuk memfilter tugas yang ditampilkan.
-
-## Kontribusi
-
-Ini adalah proyek pembelajaran sederhana. Namun, jangan ragu untuk melakukan fork repositori, membuat peningkatan, dan mengirimkan *pull request* jika Anda memiliki ide untuk memperbaikinya!
 
 ## Lisensi
 
