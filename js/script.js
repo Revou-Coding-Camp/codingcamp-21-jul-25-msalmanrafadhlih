@@ -180,7 +180,22 @@ const imageSources = [
   'img/img2.jpg',
   'img/img3.jpg',
   'img/img4.jpg',
-  'img/img5.jpg'
+  'img/img5.jpg',
+  'img/img6.jpg',
+  'img/img7.jpg',
+  'img/img8.jpg',
+  'img/img9.jpg',
+  'img/img10.jpg',
+  'img/img11.jpg',
+  'img/img12.jpg',
+  'img/img13.jpg',
+  'img/img14.jpg',
+  'img/img15.jpg',
+  'img/img16.jpg',
+  'img/img17.jpg',
+  'img/img18.jpg',
+  'img/img19.jpg',
+  'img/img20.jpg',
 ];
 
 // Generate 15 floating images
@@ -190,6 +205,6 @@ for (let i = 0; i < 15; i++) {
   img.style.left = Math.random() * 100 + 'vw';
   img.style.top = Math.random() * -100 + 'px'; // start above view
   img.style.animationDuration = (10 + Math.random() * 20) + 's';
-  img.style.width = (50 + Math.random() * 150) + 'px';
+  img.style.width = (50 + Math.random() * 100) + 'px';
   floatingContainer.appendChild(img);
 }
